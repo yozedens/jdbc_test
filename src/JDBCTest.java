@@ -46,9 +46,9 @@ public class JDBCTest {
             pstate.setString(2, "mamimalihong1");
             rs =pstate.executeQuery();
             if(rs.next()){
-                System.out.println("登录成功");
+                System.out.println("登录成功!!!");
             }else {
-                System.out.println("登录失败");
+                System.out.println("登录失败！！！");
             }
 
             JDBCOrcl.close(conn, pstate,rs);
