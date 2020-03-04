@@ -48,7 +48,7 @@ public class JDBCTest {
             if(rs.next()){
                 System.out.println("登录成功!!!");
             }else {
-                System.out.println("登录失败！！！");
+                System.out.println("登录失败!!!");
             }
 
             JDBCOrcl.close(conn, pstate,rs);
